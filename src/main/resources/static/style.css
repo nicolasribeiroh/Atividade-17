@@ -1,0 +1,26 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: "Segoe UI", Arial, sans-serif; background: #f0f3f8; color: #1f2937; }
+header { background: #1e3a8a; color: #fff; padding: 24px; text-align: center; }
+header p { opacity: .85; margin-top: 4px; }
+main { max-width: 900px; margin: 24px auto; padding: 0 16px; display: grid; gap: 20px; }
+.card { background: #fff; border-radius: 10px; padding: 20px; box-shadow: 0 2px 8px rgba(0,0,0,.08); }
+h2 { margin-bottom: 14px; color: #1e3a8a; }
+form { display: grid; gap: 8px; }
+label { font-weight: 600; font-size: .9rem; }
+input { padding: 10px; border: 1px solid #cbd5e1; border-radius: 6px; font-size: 1rem; }
+.botoes { display: flex; gap: 10px; margin-top: 8px; }
+button { padding: 10px 16px; border: none; border-radius: 6px; background: #2563eb; color: #fff; cursor: pointer; font-weight: 600; }
+button:hover { background: #1d4ed8; }
+button.secundario { background: #64748b; }
+button.perigo { background: #dc2626; }
+button.pequeno { padding: 6px 10px; font-size: .85rem; }
+.lista-topo { display: flex; justify-content: space-between; align-items: center; }
+table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+th, td { padding: 10px; border-bottom: 1px solid #e5e7eb; text-align: left; }
+th { background: #eff6ff; }
+td.acoes { display: flex; gap: 6px; }
+.vazio { text-align: center; color: #6b7280; }
+.mensagem { margin-top: 12px; padding: 10px; border-radius: 6px; }
+.mensagem.sucesso { background: #dcfce7; color: #166534; }
+.mensagem.erro { background: #fee2e2; color: #991b1b; }
+footer { text-align: center; color: #6b7280; padding: 16px; font-size: .85rem; }
